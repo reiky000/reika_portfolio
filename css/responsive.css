@@ -1,0 +1,631 @@
+@media (max-width: 769px){
+  #menu{
+    background-color: transparent;
+    width: 35px;
+    height: 30px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    }
+    
+    .bar{
+      height: 5px;
+      width: 100%;
+      background-color: #333;
+      display: block;
+      border-radius: 5px;
+      transition: 0.3s ease;
+      margin-right: 2rem;
+    }
+    
+    #bar2{
+      transform: translateY(5px);
+    }
+    
+    .nav li a{
+      color: #333;
+      text-decoration: none;
+      font-size: 1.8rem;
+  
+    }
+    
+    .nav li{
+    list-style: none;
+    padding: 20px 0;
+    transition: .3s ease;
+   
+    }
+    
+    .nav{
+      padding: 0;
+      margin: 0 10px;
+    display: none;
+    
+    }
+    
+    .menu-bg, #menu-bar{
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin: 1rem;
+    }
+    
+    .menu-bg{
+      z-index: 15;
+      width: 0;
+      height: 0;
+      background: radial-gradient(circle, #ffffff,#fff4d4);
+      transition: .3s ease;
+    
+      border-radius: 50%;
+    }
+    
+    #menu-bar{
+      z-index: 100;
+      display: block;
+    }
+
+  
+    
+    .change-bg{
+      width: 350px;
+      height: 350px;
+      transform: translate(65%, 8%);
+    }
+    
+    
+    .change .bar{
+      background-color: #333;
+    }
+    
+    .change #bar2{
+      transform: translateY(-5px) rotateZ(-45deg);
+    }
+    
+    .change #bar1{
+      transform: translateY(0px) rotateZ(45deg);
+    }
+    
+    .change{
+      display: block;
+    }
+
+    .pc-nav{
+      display: none;
+    }
+
+    .header{
+      margin: 3rem 2rem;
+      z-index: 20;
+    }
+
+    .header a{
+      font-size: 2.4rem;
+     
+    }
+
+    .top-wrapper{
+      height: 300px;
+      margin: 10rem 5rem 0 5rem;
+    }
+
+    .text-box h1{
+      font-size: 3rem;
+      text-align: center;
+      margin-right: 0;
+      margin-top: 0;
+    }
+    /*  */
+
+    .about{
+      margin: 0 2rem;
+      }
+
+      .title-about{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        }
+
+        .about-image{
+          width: 100%;
+        }
+
+        .about-image img{
+         padding: 0 1rem;
+        }
+
+        .discription{
+          padding: 1rem;
+          width: 100%;
+          }
+
+          .discription h2{
+            font-size:2.4rem;
+           }
+
+           .discription h5{
+            font-size:1.2rem;
+            margin-bottom: 2rem;
+           }
+
+           .discription p{
+            font-size: 1.5rem;
+            margin:0 0 3rem 0;
+            text-align: left;
+           }
+/*  */
+           .discription-english{
+            padding: 1rem;
+            width: 100%;
+            }
+  
+            .discription-english h2{
+              font-size:2.4rem;
+             }
+  
+             .discription-english h5{
+              font-size:1.2rem;
+              margin-bottom: 2rem;
+             }
+  
+             .discription-english p{
+              font-size: 1.5rem;
+              margin:0 0 3rem 0;
+              text-align: left;
+             }
+             /*  */
+
+           .about-more{
+            margin-top: 1rem;
+          }
+
+          .btn{
+            padding: 1.5rem 2em;
+            font-size: 2rem;
+          }
+
+          /*  */
+
+          .skills{
+            margin: 0 2rem;
+          }
+
+          .title-skill{
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 5rem;
+          
+          }
+
+          .skill-flex{
+           flex-direction: column;
+           align-items: center;
+           margin: 0 2rem;
+          }
+
+          .skill-bar{
+            width: 100%;
+            /* background-color: #FFFEE8; */
+            /* box-shadow: 2px 2px 2px #e2b252; */
+            border-radius: 2px;
+            padding: 2rem 2rem;
+            margin: 0;
+           }
+
+           skill-bar .bar{
+            margin: 0.5rem 0;
+            }
+          
+            .skill-bar .bar:first-child{
+              margin: 0;
+            }
+            .skill-bar .bar .info{
+              margin-bottom: 0.5rem;
+            }
+
+            .skill-bar .bar .info span{
+              font-size: 2rem;
+            }
+
+            .skill-bar .bar .progress-line{
+              position: relative;
+              height: 12px;
+              width: 100%;
+              border-radius: 10px;
+              background-color: #f0f0f0;
+              box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05);
+              transform: scaleX(0);
+              transform-origin: left;
+              animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+            }
+
+            .bar .progress-line span::after{
+              position: absolute;
+              content: "40%";
+              right: 0;
+              top: -20px;
+              color: #FFF;
+              font-size:1rem;
+              font-weight: 500;
+              background: #000;
+              padding: 1px 8px;
+              border-radius: 3px;
+              }
+
+              .text p{
+                padding:0;
+                font-size: 1.2rem;
+              }
+
+              li i{
+                font-size: 1.5rem;
+              }
+
+              .additional{
+                margin: 3rem 0 3rem 0;
+                width: 100%;
+              }
+
+              .design{
+                width: 100%;
+                background-color: #fff;
+                box-shadow: 5px 5px 10px #F7E97F;
+                border-radius: 10px;
+                padding: 1rem 1rem;
+                margin-bottom: 4rem;
+              }
+
+              .design h3{
+                font-size: 1.8rem;
+                padding: 0 0.5;
+              }
+
+              .design li{
+                font-size: 1.4rem;
+                font-weight: 300;
+                padding-bottom: 1rem;
+              }
+
+            
+
+              .coding{
+                width: 100%;
+                background-color: #fff;
+                box-shadow: 5px 5px 10px #F7E97F;
+                border-radius: 10px;
+                padding: 1rem 1rem;
+                margin-bottom: 4rem;
+              }
+
+              .coding h3{
+                font-size: 1.8rem;
+                padding: 0 0.5;
+              }
+
+              .coding li{
+                font-size: 1.4rem;
+                font-weight: 300;
+                padding-bottom: 1rem;
+              }
+
+              .wish{
+                width: 100%;
+                background-color: #fff;
+                box-shadow: 5px 5px 10px #F7E97F;
+                border-radius: 10px;
+                padding: 1rem 1rem;
+                margin-bottom: 3rem;
+              }
+
+              .wish h3{
+                font-size: 1.8rem;
+                padding: 0 0.5;
+              }
+
+              .wish li{
+                font-size: 1.4rem;
+                font-weight: 300;
+                padding-bottom: 1rem;
+              }
+            
+            
+              .title-work{
+                font-size: 2rem;
+                text-align: center;
+                margin-top: 1rem;
+              }  
+              /* portfolio1 */
+
+              .portfolio-modal{
+                z-index: 200;
+              }
+
+              .portfolio-modal2{
+                z-index: 200;
+              }
+
+              .portfolio-modal3{
+                z-index: 200;
+              }
+
+              .work-flex{
+               flex-direction: column;
+              }
+
+              .portfolio{
+                padding: 2rem 0;
+               width: 100%;
+              }
+
+              .portfolio-item{
+                margin: 0 2rem;
+              }
+
+              /* portfolio2 */
+              .portfolio2{
+                padding: 2rem 0;
+               width: 100%;
+              }
+
+              .portfolio-item2{
+                margin: 0 2rem;
+              }
+
+               /* portfolio3*/
+               .portfolio3{
+                padding: 2rem 0;
+               width: 100%;
+              }
+
+              .portfolio-item3{
+                margin: 0 2rem;
+              }
+
+            
+
+              /* ポートフォリオ　モーダル */
+              .modal-close i{
+                font-size: 2rem;
+                color: #333;
+                }
+
+                .portfolio-modal{
+                  top: 2rem;
+                  left: 2rem;
+                  right:2rem;
+                  bottom: 2rem;
+                 
+                  }
+                  
+
+                .modal-close:hover{
+                  opacity: 1;
+                }
+
+                .portfolio-text-box{
+                  width: 50%;
+                  }   
+                  
+                  .content-flex{
+                    flex-direction: column;
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                    
+                  }
+
+                  .portfolio-content{
+                    text-align: left;
+                    margin: 0;
+                    width: 100%;
+                  }
+
+                  .content-1 p{
+                    font-size: 1.2rem;
+                    padding: 1.5rem;
+                  }
+
+                  .btn2{
+                    margin: 3rem 0 0 1rem;
+                    font-size: 2rem;
+                    padding: 1.5rem 2rem;
+                    border: 2px solid #333;
+                    background-color: #fff;
+                  }
+
+                  .designcomp{
+                    width: 100%;
+                    margin: 5rem 0;
+                   
+                  }
+                  
+/* ポートフォリオ　モーダル2 */
+.modal-close2 i{
+  font-size: 2rem;
+  color: #333;
+  }
+
+  .portfolio-modal2{
+    top: 2rem;
+    left: 2rem;
+    right:2rem;
+    bottom: 2rem;
+   
+    }
+    
+
+  .modal-close2:hover{
+    opacity: 1;
+  }
+
+  .portfolio-text-box2{
+    width: 50%;
+    }   
+    
+    .content-flex2{
+      flex-direction: column;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      
+    }
+
+    .portfolio-content2{
+      text-align: left;
+      margin: 0;
+      width: 100%;
+    }
+
+    .content-2 p{
+      font-size: 1.2rem;
+      padding: 1.5rem;
+    }
+
+    .btn2-2{
+      margin: 3rem 0 0 1rem;
+      font-size: 2rem;
+      padding: 1.5rem 2rem;
+      border: 2px solid #333;
+      background-color: #fff;
+    }
+
+    .designcomp2{
+      width: 100%;
+      margin: 5rem 0;
+     
+    }
+    
+
+          
+
+          /* ポートフォリオ　モーダル3 */
+.modal-close3 i{
+  font-size: 2rem;
+  color: #333;
+  }
+
+  .portfolio-modal3{
+    top: 2rem;
+    left: 2rem;
+    right:2rem;
+    bottom: 2rem;
+   
+    }
+    
+
+  .modal-close3:hover{
+    opacity: 1;
+  }
+
+  .portfolio-text-box3{
+    width: 50%;
+    }   
+    
+    .content-flex3{
+      flex-direction: column;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      
+    }
+
+    .portfolio-content3{
+      text-align: left;
+      margin: 0;
+      width: 100%;
+    }
+
+    .content-3 p{
+      font-size: 1.2rem;
+      padding: 1.5rem;
+    }
+
+    .btn2-3{
+      margin: 3rem 0 0 1rem;
+      font-size: 2rem;
+      padding: 1.5rem 2rem;
+      border: 2px solid #333;
+      background-color: #fff;
+    }
+
+    .designcomp3{
+      width: 100%;
+      margin: 5rem 0;
+     
+    }
+
+    .comment{
+      font-size: 2.2rem;
+      text-align: center;
+    }
+
+    footer{
+      font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+ /* about me page */
+    #cover{
+      width: 49vw;
+      height: 75vh;
+    }
+
+  
+    .flip-book{
+      width: 49vw;
+      height: 75vh;
+      position: relative;
+      /* perspective: 1500px; */
+    }
+
+    p{
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+      padding: 0.5rem;
+    }
+    
+    h2{
+      font-size: 1.8em;
+    }
+    
+    .next-btn{
+     
+     font-size: 1.8rem;
+     
+    }
+    
+    .back-btn{
+     
+     font-size: 1.8rem;
+    }
+
+    .go-back{
+      font-size: 2rem;
+    }
+    
+    
+  
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
